@@ -1,5 +1,4 @@
 from fabric.api import sudo,cd,put
-import cuisine
 
 def upload():
     put('./searchImage.conf', '/tmp/')
